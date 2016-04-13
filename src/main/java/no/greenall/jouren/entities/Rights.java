@@ -2,10 +2,6 @@ package no.greenall.jouren.entities;
 
 import org.joda.time.DateTime;
 
-import java.util.Date;
-
-import static com.sun.javafx.tools.resource.DeployResource.Type.data;
-
 /**
  * Responsibility: Create rights objects.
  */
