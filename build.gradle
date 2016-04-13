@@ -30,6 +30,8 @@ configurations {
 def version_jetty = '9.3.8.v20160314'
 def version_slf4j = '1.7.19'
 def version_jersey = '2.22.2'
+def version_joda_time = '2.9.3'
+
 dependencies {
     compile group: 'org.eclipse.jetty', name: 'jetty-server', version: version_jetty
     compile group: 'org.eclipse.jetty', name: 'jetty-servlet', version: version_jetty
@@ -37,6 +39,7 @@ dependencies {
     compile group: 'org.slf4j', name: 'slf4j-simple', version: version_slf4j
     compile group: 'org.glassfish.jersey.core', name: 'jersey-server', version: version_jersey
     compile group: 'org.glassfish.jersey.containers', name: 'jersey-container-servlet-core', version: version_jersey
+    compile group: 'joda-time', name: 'joda-time', version: version_joda_time
 
     testCompile group: 'junit', name: 'junit', version: '4.11'
     testCompile group: 'org.glassfish.jersey.test-framework', name: 'jersey-test-framework-util', version: version_jersey
